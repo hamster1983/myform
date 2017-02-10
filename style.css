@@ -1,0 +1,63 @@
+body {
+	padding: 10px;
+}
+
+#title {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#success {
+	max-width: 600px;
+	margin: 20px auto 0;
+	text-align: center;
+}
+
+form {
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+
+form input {
+	outline: none;
+}
+
+#inputText {
+	height: 100px;
+	resize: none;
+}
+
+#inputAccept {
+	margin-left: 10px;
+	margin-right: 2px;
+}
+
+form span {
+	color: red;
+	font-weight: bold;
+}
+
+#noteName, #noteTel, #noteMail {
+	visibility: hidden;
+}
+
+#counter {
+	color: black;
+}
+
+#inputName, #inputTel, #inputMail {
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#comment {
+	margin-top: 20px;
+	margin-left: 20px;
+}
